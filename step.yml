@@ -1,10 +1,10 @@
-title: Secure S3 Upload
-summary: Secure S3 Upload
+title: Secure Azure Upload
+summary: Secure Azure Upload
 description: |-
-  Secure S3 Upload
-website: https://github.com/DamienBitrise/bitrise-secure-s3-upload
-source_code_url: https://github.com/DamienBitrise/bitrise-secure-s3-upload
-support_url: https://github.com/DamienBitrise/bitrise-secure-s3-upload/issues
+  Secure Azure Upload
+website: https://github.com/DamienBitrise/bitrise-secure-azure-upload
+source_code_url: https://github.com/DamienBitrise/bitrise-secure-azure-upload
+support_url: https://github.com/DamienBitrise/bitrise-secure-azure-upload/issues
 
 project_type_tags:
   - ios
