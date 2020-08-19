@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'azure/storage/blob'
+gem 'azure-storage-blob'
 
 group :test do
   gem 'rspec'
