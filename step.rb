@@ -16,6 +16,8 @@ begin
     raise 'Error: Not all fields set cannot proceed!'
   end
 
+  file = File.open(params.filename, "r")
+
   # Create a BlobService object
   blob_client = Azure::Storage::Blob::BlobService.create(
       storage_account_name: params.account_name,
@@ -24,7 +26,7 @@ begin
 
   blob_client.set_container_acl(params.container, "container")
 
-  blob_client.create_block_blob(params.container, params.object.dup, params.filename.dup)
+  blob_client.create_block_blob(params.container, params.object.dup, file)
 
 rescue => ex
   puts
