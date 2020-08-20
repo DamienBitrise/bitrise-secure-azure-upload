@@ -24,7 +24,7 @@ begin
 
   blob_client.set_container_acl(params.container, "container")
 
-  blob_client.create_block_blob(params.container, params.object.dup, params.filename)
+  blob_client.create_block_blob(params.container, params.object.dup, params.filename.dup)
 
 rescue => ex
   puts
